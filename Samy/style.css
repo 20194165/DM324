@@ -41,3 +41,6 @@ thead tr{
 tbody tr:nth-child(odd){
     background-color:lightgrey;
 }
+sec-left{
+    float:left
+}
