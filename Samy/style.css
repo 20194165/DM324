@@ -1,0 +1,43 @@
+ul{
+    list-style-type:none;
+    border:1px solid #e7e7e7;
+    background-color:#f3f3f3;
+    overflow:hidden;
+    padding: 15px;
+    margin: 15px;
+}
+li{
+    float:left;
+}
+a{
+    text-decoration: none;
+    color:#008cba;
+}
+li a{
+    display: block;
+    padding:13px;
+}
+nav-right{
+    float:right;
+}
+li a:hover{
+    background-color:lightgrey;
+}
+li a.active{
+    background-color:blueviolet;
+    color:white
+}
+table{
+    width: 100%;
+    border-collapse:  collapse;
+}
+thead{
+    background-color:green;
+    color:WHITE;
+}
+thead tr{
+    text-align:center;
+}
+tbody tr:nth-child(odd){
+    background-color:lightgrey;
+}
